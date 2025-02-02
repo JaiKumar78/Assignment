@@ -43,7 +43,7 @@ function App() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {data.map((row) => ( // No need for slice, as we already limited it in API call
+                    {data.map((row) => ( 
                         <TableRow key={row.id}>
                             <TableCell>{row.id}</TableCell>
                             <TableCell>{row.title}</TableCell>
